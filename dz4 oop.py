@@ -60,9 +60,6 @@ class Lecturer(Mentor):
     average_rating = 0 
     grades = {} 
 
-  
-
-
     def __str__(self):   
                   
         res = f'Имя: {self.name}\nФамилия: {self.surname}\nСредняя оценка за лекции: {self.average_rating}'
